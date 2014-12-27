@@ -52,3 +52,9 @@ PRODUCT_COPY_FILES += \
 
 # common g3
 $(call inherit-product, device/lge/g3-common/g3.mk)
+    nfc_nci.g2 \
+    NfcNci
+
+# GPS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
