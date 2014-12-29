@@ -32,6 +32,7 @@ TARGET_REQUIRES_BUMP := true
 TARGET_GCC_VERSION_ARM := 4.10-sm
 # Graphite optimizations
 SYMMETRY := true
+GRAPHITE_OPTS := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
