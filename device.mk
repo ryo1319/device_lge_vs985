@@ -55,6 +55,6 @@ PRODUCT_COPY_FILES += \
     device/lge/g3-common/wcnss/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
 # common g3
-$(call inherit-product, device/lge/g3-common/g3.mk)
+$(call inherit-product, device/lge/g3-common/g3.mk) += \
     nfc_nci.g2 \
     NfcNci
